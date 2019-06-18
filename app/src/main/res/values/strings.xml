@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Reabilitic</string>
+    <string name="about_activity_text_title">ИНФОРМАЦИЯ О БОЛЬНИЦЕ</string>
+    <string name="catalog_hint_search">Поиск по названию</string>
+    <string name="all_text_loading_dialog_title">Загрузка</string>
+    <string name="all_text_loading_dialog_desc">Пожалуйста, подождите…</string>
+    <string name="all_text_run">Запустить</string>
+    <string name="all_text_cancel">Отмена</string>
+    <string name="main_text_first_start_dialog_title">Вы впервые запустили приложение, пожалуйста, выберите больницу из списка</string>
+    <string name="main_text_first_start_dialog_message">Вы впервые запустили приложение, пожалуйста, введите id больницы.</string>
+    <string name="main_text_skype_launch_dialog_title">ВНИМАНИЕ!</string>
+    <string name="main_text_skype_launch_dialog_explanation">Если Вы хотите использовать Skype, но у Вас нет аккаунта, можете воспользоваться нижеприведенными даными</string>
+    <string name="main_text_skype_login">Логин: %1$s</string>
+    <string name="main_text_skype_password">Пароль: %1$s</string>
+    <string name="main_text_copy">Копировать</string>
+
+    <string name="tv_loading_title">Загрузка каналов</string>
+    <string name="tv_cant_play_video">Извините, канал временно недоступен</string>
+
+    <string name="film_text_button_view">Смотреть</string>
+    <string name="film_text_country">Страна: </string>
+    <string name="film_text_genre">Жанр:</string>
+    <string name="film_text_year_of_produce">Год выпуска:</string>
+    <string name="film_text_film_duration">Продолжительность:</string>
+    <string name="film_text_film_director">Режисер:</string>
+    <string name="film_text_film_actors">В ролях:</string>
+    <string name="film_text_film_rating">Рейтинг:</string>
+
+    <string name="book_text_button_read">Читать</string>
+    <string name="book_text_error_while_open_pdf">Ошибка при загрузке книги, попробуйте ещё</string>
+    <string name="book_text_continue_read_title">Подтвердите действие</string>
+    <string name="book_text_continue_read_description">Вы или кто то другой, уже читали эту книгу. Продолжить чтение или начать с начала?</string>
+    <string name="book_text_continue_read">Продолжить чтение</string>
+    <string name="book_text_start_new_read">Читать сначала</string>
+    <string name="book_text_pages_quantity">%1$s страниц</string>
+
+    <string name="control_text_cant_connect">Произошла ошибка при соединении с устройством</string>
+    <string name="control_text_device_not_connected">Нет IP устройства</string>
+    <string name="control_text_scanning_error">Извините, не удалось обнаружить устройство</string>
+    <string name="control_text_scanning_success">Устройство успешно обнаружено</string>
+
+
+    <string name="catalog_text_not_found">По Вашему запросу ничего не найдено</string>
+    <string name="all_text_network_error">Ошибка сети, попробуйте ещё раз</string>
+    <string name="all_text_scan_qr">Сканировать QR код</string>
+    <string name="all_text_scan_wifi">Найти устройство</string>
+</resources>

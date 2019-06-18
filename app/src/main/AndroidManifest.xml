@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.reabilitic">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature
+        android:name="android.hardware.wifi.direct"
+        android:required="true" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ui.views.MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FilmViewActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ui.views.TvViewActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ui.views.TvListActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ui.views.BrowserActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ui.views.CatalogActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ui.views.AboutActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ui.views.GenresListActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ui.views.GamesActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ui.views.FilmActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ui.views.BookActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".BookViewActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".ui.views.NewsViewActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ui.views.SplashActivity"
+            android:screenOrientation="landscape" />
+
+        <activity android:name=".ui.views.ControlActivity"
+            android:screenOrientation="landscape"/>
+
+        <activity android:name=".ui.views.WifiScannerActivity" />
+        <service android:name=".services.ScanService"/>
+    </application>
+
+</manifest>
